@@ -9,7 +9,6 @@
 ---
 
 [![Java](https://img.shields.io/badge/Java-21+-orange?logo=java)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/Licença-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Concluído-success)]()
 [![IDE](https://img.shields.io/badge/Feito%20em-NetBeans%20|%20VSCode-purple?logo=visualstudiocode)]()
 
