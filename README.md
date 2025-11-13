@@ -38,11 +38,11 @@ Ideal para **exercícios de lógica de programação, manipulação de arquivos 
 
 ## 🧩 Estrutura do Projeto
 
-📁 Estatistica
-├── ClassePrincipal.java # Classe principal com menu interativo
-├── ClasseMetodos.java # Métodos e lógicas de processamento
-├── Estatistica.java # Classe modelo (dados de cada cidade)
-└── Estatistica.txt # Arquivo gerado automaticamente
+📁 Estatistica  
+├── ClassePrincipal.java    # Classe principal com menu interativo  
+├── ClasseMetodos.java      # Métodos e lógicas de processamento  
+├── Estatistica.java        # Classe modelo (dados de cada cidade)  
+└── Estatistica.txt         # Arquivo gerado automaticamente
 
 
 ---
