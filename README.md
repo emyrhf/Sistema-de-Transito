@@ -49,31 +49,31 @@ Ideal para **exercícios de lógica de programação, manipulação de arquivos 
 
 ## 🧮 Fluxo de Execução
 
-1. O programa exibe um menu principal:
-1 - Cadastro Estatística
-2 - Consulta entre 100 e 500 acidentes
-3 - Cidades com maior e menor número de acidentes
-4 - Cidades acima da média
-9 - Finalizar
+O programa exibe um menu principal:
+1. Cadastro Estatística
+2. Consulta entre 100 e 500 acidentes
+3. Cidades com maior e menor número de acidentes
+4. Cidades acima da média
+9. Finalizar
 
-yaml
-Copiar código
-2. O usuário interage com as opções via `JOptionPane`.
-3. Os resultados são exibidos e gravados no arquivo `Estatistica.txt`.
+- O usuário interage com as opções via `JOptionPane`.
+- Os resultados são exibidos e gravados no arquivo `Estatistica.txt`.
 
 ---
 
 ## 💾 Exemplo de Saída no Arquivo
 
-Código da cidade: 102
-Nome da Cidade: São Paulo
-Qntd de acidentes: 872
-Cidade com maior n° de acidentes: São Paulo = 872
-Cidade com menor n° de acidentes: Campinas = 112
-Cidades com qntd de acidentes acima da média:
-Média de acidentes: 534.2
-Cidade: São Paulo
-Quantidade de acidentes: 872
+- Código da cidade: 102
+- Nome da Cidade: São Paulo
+- Qntd de acidentes: 872
+  
+- Cidade com maior n° de acidentes: São Paulo = 872
+- Cidade com menor n° de acidentes: Campinas = 112
+  
+- Cidades com qntd de acidentes acima da média:
+- Média de acidentes: 534.2
+- Cidade: São Paulo
+- Quantidade de acidentes: 872
 
 
 ---
