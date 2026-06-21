@@ -26,13 +26,23 @@ Ideal para **exercícios de lógica de programação, manipulação de arquivos 
 
 ---
 
+## 📸 Demonstração
+### Menu principal do sistema
+![Menu-sistema](/imgs/menu.png)
+
+## Relatório de estatísticas gerado
+![Estatistica-sistema](/imgs/relatorio.png)
+
+## Arquivo Estatistica.txt gerado automaticamente
+![Arquivo-sistema](/imgs/arquivo.png)
+
 ## 🚀 Funcionalidades
 
 ✅ **Cadastro de estatísticas** com geração automática de código e número de acidentes.  
 ✅ **Filtragem de cidades** com acidentes entre 100 e 500.  
 ✅ **Identificação da cidade com maior e menor número de acidentes.**  
 ✅ **Cálculo da média geral** e listagem das cidades acima da média.  
-✅ **Geração de arquivo `.txt`** com todos os resultados.
+✅ **Geração de arquivo `.txt`** com todos os resultados.a
 
 ---
 
@@ -47,17 +57,37 @@ Ideal para **exercícios de lógica de programação, manipulação de arquivos 
 
 ---
 
-## 🧮 Fluxo de Execução
+## 🔄 Fluxo do Sistema
 
-O programa exibe um menu principal:
-1. Cadastro Estatística
-2. Consulta entre 100 e 500 acidentes
-3. Cidades com maior e menor número de acidentes
-4. Cidades acima da média
-9. Finalizar
+```mermaid
+flowchart TD
+A[Início] --> B[Exibir Menu Principal]
 
-- O usuário interage com as opções via `JOptionPane`.
-- Os resultados são exibidos e gravados no arquivo `Estatistica.txt`.
+B --> C1[1 - Cadastro Estatística]
+B --> C2[2 - Consulta por quantidade de acidentes]
+B --> C3[3 - Consulta por estatísticas de acidentes]
+B --> C4[4 - Acidentes acima da média]
+B --> F[9 - Finalizar]
+
+C1 --> D1[Usuário informa nomes das cidades]
+
+C2 --> D2[Geração automática de códigos e acidentes]
+D2 --> D3[Filtra cidades com 100 a 500 acidentes]
+D3 --> R[Exibe resultado]
+
+C3 --> E1[Exibe cidade com maior número de acidentes]
+C3 --> E2[Exibe cidade com menor número de acidentes]
+
+C4 --> F1[Cálculo da média das 10 cidades]
+F1 --> F2[Exibe cidades acima da média]
+
+R --> B
+E1 --> B
+E2 --> B
+F2 --> B
+
+F --> Z[Fim]
+```
 
 ---
 
@@ -108,5 +138,3 @@ Emily Rharysa
 💻 Desenvolvedora Web | Estudante de Tecnologia
 📫 [LinkedIn](https://www.linkedin.com/in/emyrhf/)
 
-🪪 Licença
-Este projeto é licenciado sob a MIT License — sinta-se livre para usar e modificar.
