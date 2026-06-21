@@ -28,13 +28,26 @@ Ideal para **exercícios de lógica de programação, manipulação de arquivos 
 
 ## 📸 Demonstração
 ### Menu principal do sistema
-![Menu-sistema](/imgs/menu.png)
+<p align="center">
+  <img src="imgs/menu.png" width="300"/>
+</p>
 
 ## Relatório de estatísticas gerado
-![Estatistica-sistema](/imgs/relatorio.png)
+<p align="center">
+  <img src="imgs/relatorio.png" width="400"/>
+</p>
+<p align="center">
+  <img src="imgs/relatorio2.png" width="400"/>
+</p>
+<p align="center">
+  <img src="imgs/relatorio3.png" width="400"/>
+</p>
+
 
 ## Arquivo Estatistica.txt gerado automaticamente
-![Arquivo-sistema](/imgs/arquivo.png)
+<p align="center">
+  <img src="imgs/arquivo.png" width="500"/>
+</p>
 
 ## 🚀 Funcionalidades
 
