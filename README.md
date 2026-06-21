@@ -125,10 +125,10 @@ F --> Z[Fim]
 
 | Tecnologia | Uso principal |
 |-------------|----------------|
-| ☕ **Java SE** | Linguagem base |
-| 🪟 **JOptionPane (Swing)** | Interface de entrada e saída |
-| 📄 **BufferedWriter / FileWriter** | Manipulação de arquivos |
-| 🎲 **Random** | Geração automática de dados |
+|  **Java SE** | Linguagem base |
+|  **JOptionPane (Swing)** | Interface de entrada e saída |
+|  **BufferedWriter / FileWriter** | Manipulação de arquivos |
+|  **Random** | Geração automática de dados |
 
 ---
 
@@ -146,8 +146,11 @@ Copiar código
 ClassePrincipal.java
 Interaja com o menu e observe os resultados gerados no arquivo Estatistica.txt.
 ```
-👩‍💻 Autora
-Emily Rharysa
-💻 Desenvolvedora Web | Estudante de Tecnologia
-📫 [LinkedIn](https://www.linkedin.com/in/emyrhf/)
+
+---
+
+## 👩‍💻 Autora
+### Emily Rharysa
+#### 💻 Desenvolvedora Web | Estudante de Tecnologia
+#### 📫 [LinkedIn](https://www.linkedin.com/in/emyrhf/)
 
